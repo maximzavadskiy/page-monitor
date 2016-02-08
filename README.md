@@ -16,7 +16,7 @@ To run, in monitor-interface folder run:
 
 ```
 curl https://install.meteor.com/ | sh
-MONGO_URL=mongodb://page-monitor:test@apollo.modulusmongo.net:27017/Suh4ehyr meteor --port <port you want>
+MONGO_URL=mongodb://page-monitor:test@apollo.modulusmongo.net:27017/mux5aRyr meteor --port <port you want>
 ```
 
 Running UI demo is at http://pagemonitor-58893.onmodulus.net/ (still needs page-monitor to be run separately)

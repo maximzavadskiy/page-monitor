@@ -10,7 +10,7 @@ const request = require('request');
 //TODO put in argv
 const settingFilename = "settings.json"
 const logFilename = "monitorLog.txt"
-const mongoURL = "mongodb://page-monitor:test@apollo.modulusmongo.net:27017/Suh4ehyr"
+const mongoURL = "mongodb://page-monitor:test@apollo.modulusmongo.net:27017/mux5aRyr"
 
 const settings = JSON.parse(fs.readFileSync(settingFilename, 'utf8'));
 
