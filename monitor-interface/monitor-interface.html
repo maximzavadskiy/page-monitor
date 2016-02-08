@@ -1,0 +1,39 @@
+<head>
+  <title>monitor-interface</title>
+</head>
+
+<body>
+  <div class="container">
+	  <h1> Page Monitor </h1>
+
+	  {{> monitor}}
+  </div>
+</body>
+
+<template name="monitor">
+  <!-- {{}} -->
+  {{#with lastChecks}}
+  <p> Last update:  <i>{{recency}} </i> </p>
+  <table class="table table-hover">
+  	  <thead>
+	  	  <tr>
+	  	  	<th> URL </th>
+	  	  	<th> Status </th>
+	  	  	<th> Latency (ms) </th>
+	  	  	<th> Error (optional) </th>
+	  	  </tr>
+  	  </thead>
+  	  <tbody>
+	  	  {{#each checks}}
+		  <tr class="{{checkClass}}">
+		  	<td> {{url}} </td>
+		  	<td> {{status}} </td>
+		  	<td> {{latency}} </td>
+		  	<td> {{error}} </td>
+		  </tr>
+		  {{/each}}
+	  </tbody>
+  </table>
+
+  {{/with}}
+</template>

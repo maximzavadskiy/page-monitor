@@ -1,0 +1,17 @@
+{
+  "name": "page-monitor",
+  "version": "1.0.0",
+  "description": "Monitors urls for specified text. Specifications for monitoring are given in settings.json",
+  "main": "main.js",
+  "dependencies": {
+    "mongodb": "^2.1.6",
+    "request": "^2.69.0",
+    "request-promise": "^2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

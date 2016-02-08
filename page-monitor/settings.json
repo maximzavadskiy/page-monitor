@@ -1,0 +1,10 @@
+{
+	"checkIntervalSec": 5,
+	"checks" : [
+		{"url" : "http://www.space.com/", "content" : "FOLLOW USsdf" },
+		{"url" : "https://www.youtube.com/user/FightNerds" },
+		{"url" : "wrong.url", "content" : "Find me if you can"},
+		{"url" : "http://localhost:3001" },
+		{"url" : "https://www.google.com/unexistant_page.html" }
+	]
+}
