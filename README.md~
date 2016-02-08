@@ -5,15 +5,19 @@ The system consist of 2 services:
 1) Monitor sever (page-monitor) - node.js application that queries the urls specified in settings.json and writes report to file on local FS + MongoDB
 To run in page-monitor folder run:
 
+```
 npm install
 node main.js
+```
 
 2) Monitor UI (monitor-interface) - Meteor.js application that dispays information about last check, and automatically refreshes as new data arrives
 
 To run, in monitor-interface folder run:
 
+```
 curl https://install.meteor.com/ | sh
 MONGO_URL=mongodb://page-monitor:test@apollo.modulusmongo.net:27017/Suh4ehyr meteor --port <port you want>
+```
 
 Running UI demo is at http://page-monitor.meteor.com (still needs page-monitor to be run separately)
 

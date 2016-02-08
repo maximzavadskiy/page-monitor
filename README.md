@@ -19,7 +19,7 @@ curl https://install.meteor.com/ | sh
 MONGO_URL=mongodb://page-monitor:test@apollo.modulusmongo.net:27017/Suh4ehyr meteor --port <port you want>
 ```
 
-Running UI demo is at http://page-monitor.meteor.com (still needs page-monitor to be run separately)
+Running UI demo is at http://pagemonitor-58893.onmodulus.net/ (still needs page-monitor to be run separately)
 
 
 The current design splits the monitoring logic from user interface logic and provides better reliability as it would be a single process - data is stored securely on MongoDB, and in case either of subsystems fails, the other one can still function
